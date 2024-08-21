@@ -1,0 +1,16 @@
+header{
+    position: sticky;
+    inset: 0 0 auto 0;
+    z-index: 10;
+    box-shadow: 0 0 5px #ccc;
+    background-color: var(--background);
+}
+
+header .banner{
+    display: block;
+    background-color: var(--thirdground);
+    text-align: center;
+    padding: 1rem 2rem;
+    color: var(--primary);
+    text-decoration: none;
+}
